@@ -28,7 +28,7 @@ const resetGame=()=>{
 
 boxes.forEach((box)=>{
 
-box.addEventListener("click",()=>{
+box.addEventListener("click","touchstar",()=>{
   //let iswinner=checkWinner();//
 
 console.log("this was button");
